@@ -53,7 +53,7 @@ Retrieve top 4 most relevant sections
       ↓
 Build prompt: System prompt + Context chunks + Your question
       ↓
-Send to GPT-4o (the LLM)
+Send to Ollama
       ↓
 Get grounded answer with citations
 ```
@@ -65,8 +65,8 @@ The LLM is instructed to answer ONLY from the provided context. If the answer is
 
 ## 📦 Tech Stack
 
-| Component | Library | Why |
-|-----------|---------|-----|
+| Component | Library |
+|-----------|---------|
 | UI | Streamlit 
 | PDF Reading | PyMuPDF (fitz) 
 | Text Splitting | LangChain 
