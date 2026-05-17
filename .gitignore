@@ -1,0 +1,38 @@
+# ============================================================
+# Legal AI Assistant - Git Ignore File
+# ============================================================
+
+# --- NEVER commit these ---
+.env
+*.env
+
+# --- Python cache files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual environment ---
+venv/
+env/
+.venv/
+
+# --- Vector store (large binary files) ---
+vectorstore/
+
+# --- Uploaded documents (keep user data private) ---
+uploaded_docs/
+data/
+
+# --- IDE files ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit cache ---
+.streamlit/
